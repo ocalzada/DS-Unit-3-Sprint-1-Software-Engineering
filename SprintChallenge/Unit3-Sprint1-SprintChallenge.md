@@ -270,6 +270,13 @@ career here, you'll have to answer the following:
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
+Code Reviews are important to make sure your code is understanable and reproducible by others. Code Review allows
+others to critique your work and, in so doing, optimize your code writing into DRY (e.g. succinct) and not WET code (verbose and repetitive). When I review code, I pay attention to the length of every line, eliminate repetition, and 
+I greatly value when explanatory commentary is embedded into someone's code. This commentary serves as I guide to a future self or to others as they replicate or review your code.
+
+Containers are running instances of Docker images. That's to say that containers run the actual apps within its own OS.
+Therefore, since a container includes an app and all of its dependencies, containers allow us to run the specific dependencies required for our app to run smoothly without having to worry about other incompatable dependencies running elsewhere in our machine that may cause problems/erros. This is thanks to the Dockerfile which is the blueprint for what dependencies are required for our container.
+
 ### Part 8 - Turn it in!
 
 Add all the files you wrote (`acme.py`, `acme_report.py`, and `acme_test.py`),
